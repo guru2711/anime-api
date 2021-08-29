@@ -11,5 +11,4 @@ async function getquotes() {
   character.innerText = `character : ${b.character}`;
   const quote = document.querySelector("section");
   quote.innerText = `quote : ${b.quote}`;
-  console.log(b);
 }
